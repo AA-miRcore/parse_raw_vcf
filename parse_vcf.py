@@ -37,9 +37,9 @@ def parseLine(line, outfile):
 
 vcf_file_name = args.input;
 
-if vcf_file_name[-4:] != ".vcf":
-    print("Input file is not a .vcf file");
-    sys.exit();
+#if vcf_file_name[-4:] != ".vcf":
+#    print("Input file is not a .vcf file");
+#    sys.exit();
 
 if vcf_file_name == args.output:
     print("Input and output should not be the same file")
